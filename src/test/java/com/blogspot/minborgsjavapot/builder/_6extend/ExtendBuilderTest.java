@@ -22,7 +22,7 @@ import org.junit.Test;
  * - иннициализировтаь только те поля которые будут использоваться
  * - и исключать остальные поля, которые НЕиспользуются
  */
-public class BuilderTest {
+public class ExtendBuilderTest {
 
     private Car car;
     private ElectricCar electricCar;

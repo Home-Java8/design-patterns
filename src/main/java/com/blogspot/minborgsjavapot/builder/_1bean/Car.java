@@ -1,21 +1,18 @@
 package com.blogspot.minborgsjavapot.builder._1bean;
 
-/**
- *
- * @author pemi
- */
 public class Car {
 
-    // Required parameters
     private final String brand;
     private final String type;
 
-    // Optional parameters
     private int power;
     private int torque;
     private int gears;
     private String color;
 
+    /**
+     * обязательные параметры
+     */
     public Car(String brand, String type, int power, int torque, int gears, String color) {
         this.brand = brand;
         this.type = type;
@@ -25,6 +22,9 @@ public class Car {
         this.color = color;
     }
 
+    /**
+     * параметры по умолчанию
+     */
     public Car(String brand, String type) {
         this(brand, type, 0, 0, 0, null);
     }

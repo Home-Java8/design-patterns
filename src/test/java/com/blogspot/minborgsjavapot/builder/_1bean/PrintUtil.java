@@ -1,6 +1,4 @@
-package com.blogspot.minborgsjavapot._1bean;
-
-import com.blogspot.minborgsjavapot.builder._1bean.Car;
+package com.blogspot.minborgsjavapot.builder._1bean;
 
 public class PrintUtil {
     private static final String ANSI_RESET = "\u001B[0m";

@@ -1,12 +1,11 @@
-package com.blogspot.minborgsjavapot._1bean;
+package com.blogspot.minborgsjavapot.builder._1bean;
 
-import com.blogspot.minborgsjavapot.builder._1bean.Car;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
-public class BuilderTest {
+public class BeenBuilderTest {
 
 
     private Car car;
