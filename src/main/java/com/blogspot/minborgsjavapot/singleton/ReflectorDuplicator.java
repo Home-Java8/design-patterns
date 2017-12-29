@@ -3,10 +3,6 @@ package com.blogspot.minborgsjavapot.singleton;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-/**
- *
- * @author pemi
- */
 public class ReflectorDuplicator {
 
     public static void main(String[] args) throws InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
